@@ -1,4 +1,3 @@
-
 var cards = [
     "queen",
     "queen",
@@ -23,7 +22,7 @@ cardsInPlay.push(cardOne[0]);
 //adding item 3 i.e. cards[2] to cardTwo
 cardTwo.push(cards[2])
 
-//THEN ADDING cardTwo to the end of cardsInPlay
+//THEN ADDING cardTwo to the end of cardsInPlay..
 cardsInPlay.push(cardTwo[0])
 
 //Write an if statement that checks to see if the length of the cardsInPlay array is 2.
@@ -41,5 +40,5 @@ if(lengthOfCardsInPlay ==2)
    }
 }
 
-
-console.log (cardsInPlay)
+console.log("User flipped " + cardOne);
+console.log("User flipped " + cardTwo);
