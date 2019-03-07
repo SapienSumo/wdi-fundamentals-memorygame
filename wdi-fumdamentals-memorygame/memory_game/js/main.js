@@ -4,7 +4,13 @@ console.log("User flipped " + cardThree);
 
 var cards = [
     "queen",
-    "queen",
-    "king",
     "king"
-  ];
+]
+
+var cardOne = []
+
+//The first item of cards=>[0]
+cardOne.push(cards[0]);
+
+//output the cardOne
+console.log(cardOne)
